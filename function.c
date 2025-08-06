@@ -36,6 +36,45 @@
 
 
 
+// =================================================== 
+
+// #include <stdio.h>
+// int sum(int a , int b);
+// int main(){
+// int a,b ;
+// printf("Enter First Number :");
+// scanf("%d" , &a);
+// printf("Enter Second Number : ");
+// scanf("%d" , &b);
+// int result = sum(a,b);// Argument / Actual  parameter
+// printf("%d\n", result) ;
+//     return 0;
+// }
+
+// int sum(int x , int y){ // parameter / formal parameter 
+
+//   return x+y ;
+// }
+
+
+
+
+#include <stdio.h>
+void printTable(int n);
+int main(){
+    int n;
+    printf("Enter Number :");
+    scanf("%d",&n);
+    printTable(n);
+    return 0;
+}
+
+void printTable(int n){
+  for(int i = 1 ; i <= 10 ; i++){
+    printf("%d\n", i*n);
+  }
+}
+
 
 
 
@@ -45,25 +84,3 @@
 
 //     return 0;
 // }
-
-
-
-
-#include <stdio.h>
-int sum(int a , int b);
-int main(){
-int a,b ;
-printf("Enter First Number :");
-scanf("%d" , &a);
-printf("Enter Second Number : ");
-scanf("%d" , &b);
-int result = sum(a,b);// Argument / Actual  parameter
-printf("%d\n", result) ;
-    return 0;
-}
-
-int sum(int x , int y){ // parameter / formal parameter 
-
-  return x+y ;
-}
-
