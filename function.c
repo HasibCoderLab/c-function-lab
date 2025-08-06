@@ -62,7 +62,7 @@ printf("%d\n", result) ;
     return 0;
 }
 
-int sum(int x , int y){ // parametter / formal parameter 
+int sum(int x , int y){ // parameter / formal parameter 
 
   return x+y ;
 }
