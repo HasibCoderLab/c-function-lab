@@ -17,19 +17,19 @@
 
 
 
-#include <stdio.h>
-void  printHello();
-int main(){
-  printHello();
-  printHello();
-  printHello();
+// #include <stdio.h>
+// void  printHello();
+// int main(){
+//   printHello();
+//   printHello();
+//   printHello();
 
-    return 0;
-}
-void printHello(){
-    printf("Hello ! \n");
-    printf("Learn'C' Programming Language \n") ;
-}
+//     return 0;
+// }
+// void printHello(){
+//     printf("Hello ! \n");
+//     printf("Learn'C' Programming Language \n") ;
+// }
 
 
 
@@ -45,3 +45,25 @@ void printHello(){
 
 //     return 0;
 // }
+
+
+
+
+#include <stdio.h>
+int sum(int a , int b);
+int main(){
+int a,b ;
+printf("Enter First Number :");
+scanf("%d" , &a);
+printf("Enter Second Number : ");
+scanf("%d" , &b);
+int result = sum(a,b);
+printf("%d\n", result) ;
+    return 0;
+}
+
+int sum(int x , int y){
+
+  return x+y ;
+}
+
