@@ -57,12 +57,12 @@ printf("Enter First Number :");
 scanf("%d" , &a);
 printf("Enter Second Number : ");
 scanf("%d" , &b);
-int result = sum(a,b);
+int result = sum(a,b);// Argument / Actual  parameter
 printf("%d\n", result) ;
     return 0;
 }
 
-int sum(int x , int y){
+int sum(int x , int y){ // parametter / formal parameter 
 
   return x+y ;
 }
