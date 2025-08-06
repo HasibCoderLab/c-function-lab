@@ -59,25 +59,39 @@
 
 
 
-#include <stdio.h>
-void printTable(int n);
-int main(){
-    int n;
-    printf("Enter Number :");
-    scanf("%d",&n);
+// #include <stdio.h>
+// void printTable(int n);
+// int main(){
+//     int n;
+//     printf("Enter Number :");
+//     scanf("%d",&n);
 
-    printTable(n);   //argument / actual parameter  
+//     printTable(n);   //argument / actual parameter  
+//     return 0;
+// }
+
+// void printTable(int n){ // actual parameter /  formal parameter 
+//   for(int i = 1 ; i <= 10 ; i++){
+//     printf("%d\n", i*n);
+//   }
+// }
+
+
+
+
+
+#include <stdio.h>
+void calculatePrice(float value);
+int main(){
+  float value = 100.0;
+  calculatePrice(value);
     return 0;
 }
 
-void printTable(int n){ //  parameter /  formal parameter 
-  for(int i = 1 ; i <= 10 ; i++){
-    printf("%d\n", i*n);
-  }
+void calculatePrice(float value){
+  value = value + (0.18 * value);
+  printf("total price : %f" , value);
 }
-
-
-
 
 
 // #include <stdio.h>
