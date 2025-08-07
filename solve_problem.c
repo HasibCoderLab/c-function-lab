@@ -7,7 +7,7 @@
 
 
 
-// write 2 functions one to print "Hello"  and Second to print "Goodbey"
+// 👉👉  🔹Qu -1 🔹 write 2 functions one to print "Hello"  and Second to print "Goodbey"
 
 // #include <stdio.h>
 // void hello_f();
@@ -31,7 +31,7 @@
 
 
 
-// Write a fuction that prints Salam if user is Bagladashi 
+//👉👉  🔹Qu -2 🔹  Write a fuction that prints Salam if user is Bagladashi 
 // &  Hey if the user is French
 
 
@@ -58,6 +58,19 @@
 //     printf("Hey ! \n");
 // }
 
+
+
+
+
+// 👉👉  🔹Qu -3 🔹 use library fucntions to calculate the square of a number given by the user 
+
+
+
+// #include <stdio.h>
+// int main(){
+
+//     return 0;
+// }
 
 
 // #include <stdio.h>
