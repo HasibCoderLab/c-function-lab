@@ -59,13 +59,32 @@
 //     return 0;
 // }
 
-// 👉👉  🔹Qu -3 🔹
+// 👉👉  🔹Qu -3 🔹 write a fuction calculate area of a square , a circle & a rectangel
 
 #include <stdio.h>
-int main()
-{
+#include <math.h>
 
+ float square_f( float side);
+ float  circle_f(float rad);
+ float  rectangle_f(float a , float b);
+int main(){
+
+    float a = 4;
+    float b = 4;
+    printf("Total Area is : %f\n" , rectangle_f(a,b));
     return 0;
+}
+
+float square_f(float side){
+         return side * side ;
+}
+
+float cirlce_f(float rad){
+    return  3.1416 * rad * rad ;
+}
+
+float rectangle_f(float a , float b){
+    return  a*b ;
 }
 
 // #include <stdio.h>
