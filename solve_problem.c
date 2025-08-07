@@ -65,10 +65,12 @@
 // 👉👉  🔹Qu -3 🔹 use library fucntions to calculate the square of a number given by the user 
 
 
-
 // #include <stdio.h>
-// int main(){
+// #include <math.h>
 
+// int main(){
+// int n = 4 ;
+// printf("%f\n", pow(n,2));
 //     return 0;
 // }
 
