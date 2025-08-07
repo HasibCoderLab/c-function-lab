@@ -3,10 +3,6 @@
 // =======================  👉👉  🔹🔹 Practice-Problem =========
 // ==================================================
 
-
-
-
-
 // 👉👉  🔹Qu -1 🔹 write 2 functions one to print "Hello"  and Second to print "Goodbey"
 
 // #include <stdio.h>
@@ -26,14 +22,8 @@
 //     printf("goodbey :) \n");
 // }
 
-
-
-
-
-
-//👉👉  🔹Qu -2 🔹  Write a fuction that prints Salam if user is Bagladashi 
-// &  Hey if the user is French
-
+// 👉👉  🔹Qu -2 🔹  Write a fuction that prints Salam if user is Bagladashi
+//  &  Hey if the user is French
 
 // #include <stdio.h>
 // void salam_f();
@@ -58,12 +48,7 @@
 //     printf("Hey ! \n");
 // }
 
-
-
-
-
-// 👉👉  🔹Qu -3 🔹 use library fucntions to calculate the square of a number given by the user 
-
+// 👉👉  🔹Qu -3 🔹 use library fucntions to calculate the square of a number given by the user
 
 // #include <stdio.h>
 // #include <math.h>
@@ -74,10 +59,17 @@
 //     return 0;
 // }
 
+// 👉👉  🔹Qu -3 🔹
+
+#include <stdio.h>
+int main()
+{
+
+    return 0;
+}
 
 // #include <stdio.h>
 // int main(){
 
 //     return 0;
 // }
-
