@@ -80,19 +80,35 @@
 
 
 
+// #include <stdio.h>
+// void calculatePrice(float value);
+// int main(){
+//   float value = 100.0;
+//   calculatePrice(value);
+//     return 0;
+// }
+
+// void calculatePrice(float value){
+//   value = value + (0.18 * value);
+//   printf("total price : %f" , value);
+// }
+
 #include <stdio.h>
-void calculatePrice(float value);
+
+ void  calculate_Price(float value);
 int main(){
-  float value = 100.0;
-  calculatePrice(value);
-    return 0;
+ 
+  float value = 100.0 ;
+  calculate_Price( value);
+  return 0;
 }
 
-void calculatePrice(float value){
-  value = value + (0.18 * value);
-  printf("total price : %f" , value);
+void calculate_Price(float value){
+  value  =  value + (0.18 * value) ; 
+  printf("Final Value : %d\n " , value);
 }
 
+// comment out
 
 // #include <stdio.h>
 // int main(){
