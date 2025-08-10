@@ -143,28 +143,29 @@
 // 👉👉 🔹 Q- 5: একটি ফাংশন লিখো যা একটি পূর্ণসংখ্যা ইনপুট নিয়ে বলে দেবে সংখ্যাটি জোড় না বিজোড়।
 // ============================================================
 
-
 #include <stdio.h>
-void checkEvenOdd(n);
-
+void checkEvenOdd(int  n );
 int main(){
+
     int n;
-    printf("Enter Number : ");
+    printf("Enter Number ");
     scanf("%d", &n);
-    
-    if (n % 2  == 0){
-        printf("Number is : %d\n" , n);
-    }else{
-        
-    }
+
+    checkEvenOdd(n);
+    return 0;
+}
+void checkEvenOdd(int n){
+      if (n % 2 == 0  )
+      {
+       printf("%d is Even.\n " , n) ;
+      }else{
+        printf("%d is Odd.\n " , n) ;
+      }
       
-    
-    
-    return 0 ;
 }
 
-void checkEvenOdd(n);
-  
+
+
 
 // #include <stdio.h>
 // int main(){
