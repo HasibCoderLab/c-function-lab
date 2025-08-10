@@ -198,27 +198,27 @@
 // ============================================================
 
 
-#include <stdio.h>
-int sum(int y, int z);
+// #include <stdio.h>
+// int sum(int y, int z);
 
-int main(){
-int y,z;
-printf("Enter Tow Numbers : ");
-scanf(" %d %d", &y, &z);
+// int main(){
+// int y,z;
+// printf("Enter Tow Numbers : ");
+// scanf(" %d %d", &y, &z);
 
-int result = sum(y,z) ;
-printf("Result is : %d\n", result);
+// int result = sum(y,z) ;
+// printf("Result is : %d\n", result);
 
 
-    return 0;
+//     return 0;
 
-}
-int sum(int y , int z){
-    return y+z;
-}
+// }
+// int sum(int y , int z){
+//     return y+z;
+// }
 // ============================================================
 //         📌   Sum of Two Numbers
-// 👉👉 🔹 Q- 6:  দুটি সংখ্যার যোগফল বের করার জন্য একটি ফাংশন লিখো।
+// 👉👉 🔹 Q- 6.2:  দুটি সংখ্যার যোগফল বের করার জন্য একটি ফাংশন লিখো।
 //          👉 🔹 Version :2.0 
 // ============================================================
 // #include <stdio.h>
@@ -243,6 +243,39 @@ int sum(int y , int z){
 // }
 
 
+// ============================================================
+//                    📌 Practice Problems
+//                    Topic : C Programming - Functions
+//                    Level 2 – Intermediate  Function Problems 
+// ============================================================
+
+
+
+// // ============================================================
+//         📌   Factorial Finder
+// 👉👉 🔹 Q- 6:  একটি ফাংশন লিখো যা একটি সংখ্যা ইনপুট নিয়ে তার Factorial বের করবে।         
+// ============================================================
+
+
+#include <stdio.h>
+int factorial(int n);
+int main(){
+    int n;
+    printf("Enter Number : ");
+    scanf("%d" , &n);
+     int result = factorial(n) ; 
+    int fac = 1 ;
+    for(int i =  1 ; i<=n ;i++){
+      fac = i*result;
+      printf("FActorial is : %d\n" , result) ;
+    }
+
+    return 0;
+}
+
+int factorial(int n){
+    return n ;
+}
 
 
 // #include <stdio.h>
