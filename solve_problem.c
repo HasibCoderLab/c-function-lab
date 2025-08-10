@@ -198,31 +198,49 @@
 // ============================================================
 
 
+#include <stdio.h>
+int sum(int y, int z);
+
+int main(){
+int y,z;
+printf("Enter Tow Numbers : ");
+scanf(" %d %d", &y, &z);
+
+int result = sum(y,z) ;
+printf("Result is : %d\n", result);
+
+
+    return 0;
+
+}
+int sum(int y , int z){
+    return y+z;
+}
 // ============================================================
 //         📌   Sum of Two Numbers
 // 👉👉 🔹 Q- 6:  দুটি সংখ্যার যোগফল বের করার জন্য একটি ফাংশন লিখো।
 //          👉 🔹 Version :2.0 
 // ============================================================
-#include <stdio.h>
-int sum(int a , int b);
-int main(){
-int a ;
-int b ;
-printf("Enter first  Numbers :  ");
-scanf("%d", &a );
-printf("Enter second  Numbers :  ");
-scanf("%d",  &b);
+// #include <stdio.h>
+// int sum(int a , int b);
+// int main(){
+// int a ;
+// int b ;
+// printf("Enter first  Numbers :  ");
+// scanf("%d", &a );
+// printf("Enter second  Numbers :  ");
+// scanf("%d",  &b);
 
 
-int total= sum(a,b);
-printf("Sum is : %d\n", total);
+// int total= sum(a,b);
+// printf("Sum is : %d\n", total);
 
-    return 0;
-}
+//     return 0;
+// }
 
-int sum(int a , int b){
-    return a + b ;
-}
+// int sum(int a , int b){
+//     return a + b ;
+// }
 
 
 
