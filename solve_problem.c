@@ -95,24 +95,47 @@
 //                    Level :  1 – Basic Function Problems 
 // ============================================================
 
+
+// ============================================================
 // 👉👉 🔹 Q-4: একটি ফাংশন লিখো যা একটি পূর্ণসংখ্যা ইনপুট নিয়ে তার স্কয়ার রিটার্ন করবে।
+// ============================================================
 
 
 
+
+// #include <stdio.h>
+//  int square (int n);
+// int main(){
+//     int num = 40;
+//      int result =  square(num);
+//      printf("Square Reult is : %d\n ", result);
+
+//     return 0;
+// }
+
+// int square(int n ) {
+//     return n*n ;
+// }
+
+
+
+// ============================================================
+// 👉👉 🔹 Q-: একটি ফাংশন লিখো যা একটি পূর্ণসংখ্যা ইনপুট নিয়ে তার স্কয়ার রিটার্ন করবে।
+// ============================================================
 #include <stdio.h>
- int square (int n);
+int input_square(int n);
 int main(){
-    int num = 40;
-     int result =  square(num);
-     printf("Square Reult is : %d\n ", result);
-
+        int n ;
+        printf("Enter Number : ");
+        scanf("%d" , &n);
+    int  result  = input_square(n);
+    printf("Square number is : %d\n", result) ; 
     return 0;
 }
 
-int square(int n ) {
-    return n*n ;
+int input_square(int n){
+   return  n*n ;
 }
-
 
 // #include <stdio.h>
 // int main(){
