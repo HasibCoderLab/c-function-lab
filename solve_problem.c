@@ -267,27 +267,32 @@
 //    👉 🔹       Review Write code 
 // ============================================================
 
-#include <stdio.h>
-int factorial(int a) ;
-int main(){
-    int a ;
-    printf("Enter Number :");
-    scanf("%d",&a);
-   int  fact  = factorial(a);
-   printf("Factorial is %d\n" , fact); 
-    return 0;
-}
+// #include <stdio.h>
+// int factorial(int a) ;
+// int main(){
+//     int a ;
+//     printf("Enter Number :");
+//     scanf("%d",&a);
+//    int  fact  = factorial(a);
+//    printf("Factorial is %d\n" , fact); 
+//     return 0;
+// }
 
-int factorial(int a ){
-    int  result = 1;
-    for(int i = 1; i<=a; i++){
-        result = i*i;
-    }
+// int factorial(int a ){
+//     int  result = 1;
+//     for(int i = 1; i<=a; i++){
+//         result = i*i;
+//     }
 
-    return result;
-}
+//     return result;
+// }
 
 
+
+// ============================================================
+//             📌  Prime Number Checker
+// 👉👉 🔹 Q- 7:  একটি ফাংশন লিখো যা একটি সংখ্যা ইনপুট নিয়ে বলে দেবে সেটি Prime কিনা
+// ============================================================
 
 // #include <stdio.h>
 // int main(){
