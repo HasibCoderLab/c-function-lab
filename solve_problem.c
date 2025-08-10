@@ -97,21 +97,21 @@
 
 // 👉👉 🔹 Q-4: একটি ফাংশন লিখো যা একটি পূর্ণসংখ্যা ইনপুট নিয়ে তার স্কয়ার রিটার্ন করবে।
 
+
+
 #include <stdio.h>
-int square_f(int n);
+ int square (int n);
 int main(){
+    int num = 40;
+     int result =  square(num);
+     printf("Square Reult is : %d\n ", result);
 
-    int n = 5;
-    int result = square_f(n);
-    printf("Suare number is : %d\n", result) ;
-    return  0 ;
+    return 0;
 }
 
-int square_f(int n ){
-    return n* n;
+int square(int n ) {
+    return n*n ;
 }
-
-
 
 
 // #include <stdio.h>
