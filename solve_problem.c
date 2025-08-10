@@ -230,34 +230,61 @@
 //                    Topic : C Programming - Functions
 //                    Level 2 – Intermediate  Function Problems
 // ============================================================
+ 
+//  ---------------------------------------------------------------------------------
+
+
 
 // // ============================================================
 //             📌   Factorial Finder
 // 👉👉 🔹 Q- 7:  একটি ফাংশন লিখো যা একটি সংখ্যা ইনপুট নিয়ে তার Factorial বের করবে।
 // ============================================================
 
+// #include <stdio.h>
+// int factorial(int n);
+// int main(){
+//  int n ;
+//  printf("Enter Number ") ;
+//  scanf("%d" , &n);
+//  int fac = factorial(n);
+//  printf("factorial is %d\n" , fac);
 
+//     return 0;
+// }
 
+// int factorial(int n){
+//     int result = 1 ;
+//   for (int i = 1 ; i<=n ; i++){
+//   result = i*i;
+//   }
+//   return result ;
+
+// }
+
+// // ============================================================
+//             📌   Factorial Finder
+// 👉👉 🔹         Q- 7:  একটি ফাংশন লিখো যা একটি সংখ্যা ইনপুট নিয়ে তার Factorial বের করবে।
+//    👉 🔹       Review Write code 
+// ============================================================
 
 #include <stdio.h>
-int factorial(int n);
+int factorial(int a) ;
 int main(){
- int n ;
- printf("Enter Number ") ;
- scanf("%d" , &n);
- int fac = factorial(n);
- printf("factorial is %d\n" , fac);
-
+    int a ;
+    printf("Enter Number :");
+    scanf("%d",&a);
+   int  fact  = factorial(a);
+   printf("Factorial is %d\n" , fact); 
     return 0;
 }
 
-int factorial(int n){
-    int result = 1 ;
-  for (int i = 1 ; i<=n ; i++){
-  result = i*i;
-  }
-  return result ;
+int factorial(int a ){
+    int  result = 1;
+    for(int i = 1; i<=a; i++){
+        result = i*i;
+    }
 
+    return result;
 }
 
 
