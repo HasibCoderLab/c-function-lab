@@ -170,28 +170,47 @@
 // 👉👉 🔹 Q- 5: একটি ফাংশন লিখো যা একটি পূর্ণসংখ্যা ইনপুট নিয়ে বলে দেবে সংখ্যাটি জোড় না বিজোড়।
 // ============================================================
 
-#include <stdio.h>
-void  checkEvenOdd(int n);
-int main(){
-int n;
-printf("Enter Number  : ");
-scanf("%d" , &n);
-checkEvenOdd(n);
-    return 0;
-}
+// #include <stdio.h>
+// void  checkEvenOdd(int n);
+// int main(){
+// int n;
+// printf("Enter Number  : ");
+// scanf("%d" , &n);
+// checkEvenOdd(n);
+//     return 0;
+// }
 
-void checkEvenOdd(int n){
-   if (n % 2 == 0 )
-   {
-    printf("%d is Even.\n" , n);
-   }else{
-    printf("%d is Odd.\n" , n);
-   }
+// void checkEvenOdd(int n){
+//    if (n % 2 == 0 )
+//    {
+//     printf("%d is Even.\n" , n);
+//    }else{
+//     printf("%d is Odd.\n" , n);
+//    }
    
     
+// }
+
+
+// ============================================================
+//         📌   Sum of Two Numbers
+// 👉👉 🔹 Q- 6:  দুটি সংখ্যার যোগফল বের করার জন্য একটি ফাংশন লিখো।
+// ============================================================
+
+#include <stdio.h>
+int sum(int a , int b);
+int main(){
+    int n;
+    printf("rnter Number : ");
+    scanf("%d", &n);
+    int result = sum(n);
+    printf("%d sum is .\n" , result);
+    return 0;
 }
+int sum(int a , int b){
 
-
+    return a+b ;
+}
 
 
 
