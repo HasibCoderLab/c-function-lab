@@ -236,28 +236,6 @@
 // 👉👉 🔹 Q- 7:  একটি ফাংশন লিখো যা একটি সংখ্যা ইনপুট নিয়ে তার Factorial বের করবে।
 // ============================================================
 
-#include <stdio.h>
-int factorial(int n);
-int main()
-{
-    int n;
-    printf("Enter Number : ");
-    scanf("%d", &n);
-    int result = factorial(n);
-    int fac = 1;
-    for (int i = 1; i <= n; i++)
-    {
-        fac = i * fac;
-        printf("Factorial is : %d\n", result);
-    }
-
-    return 0;
-}
-
-int factorial(int n)
-{
-    return n;
-}
 
 // #include <stdio.h>
 // int main(){
