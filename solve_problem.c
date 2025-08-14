@@ -58,7 +58,7 @@
 // printf("%f\n", pow(n,2));
 //     return 0;
 // }
-//  ======================================= 
+//  =======================================
 
 // #include <stdio.h>
 // #include <math.h>
@@ -321,59 +321,57 @@
 //     return 1;
 // }
 
+//    👉👉  🔹🔹Qu -  8️⃣  Write a fucntion convart  Celsius →to  Fahrenheit   ..
 
+// #include <stdio.h>
+// //  Fuction Prototype
+// float con_Tem(float cel );
+// int main(){
 
+//     float feh = con_Tem(0); // function call
+//     printf("Temp is %f\n" , feh);
+//     return 0;
+// }
+// //  Function Definition
 
+// float con_Tem( float cel ){
+//     float feh = cel *(5.0 / 9.0) + 32 ;
+//     return feh ;
+// }
 
-//    👉👉  🔹🔹Qu -  8️⃣  Write a fucntion convart  celsius to fahrenheit ..
-
+//    👉👉  🔹🔹Qu - 9️⃣  Write A functoin claculate percentage  of a student from
+//  Marks in Science , Math , English
 
 #include <stdio.h>
-//  Fuction Prototype
-float con_Tem(float cel );
-int main(){
-     
-    float feh = con_Tem(0); // function call
-    printf("Temp is %f\n" , feh);
+//  Function Prototyep
+int cal_marks(int science, int math, int eng);
+int main()
+{
+    int sci = 96;
+    int math = 90;
+    int eng = 92;
+
+    int calcualtion = cal_marks(sci, math, eng); // Function call
+    printf("Percentage of marks : %d%\n", calcualtion);
+
     return 0;
 }
-//  Function Diclaration 
 
-float con_Tem( float cel ){
-    float feh = cel *(5.0 / 9.0) + 32 ;
-    return feh ;
+// Function Dafinition
+
+int cal_marks(int science, int math, int eng)
+{
+    int calculation = ((science + math + eng) / 3);
+    return calculation;
 }
 
-
-
-
-
-
-
-// #include <stdio.h>
-// float Con_Temp( float cel);
-// int main(){
-//  float feh =  Con_Temp(0);   // Function call 
-//  printf("celsius is %f\n" , feh);
-
-//     return 0;
-// }
-// //   Fuction dafiantion 
-// float  Con_Temp( float cel){
-//    float feh = cel * (9.0 / 5.0) + 32 ;
-//    return feh ; 
-// }
-
-
-// #include <stdio.h>
+// / #include <stdio.h>
 // int main(){
 
 //     return 0;
 // }
 
-
-
-//   Number Emoji     👉👉  🔹Qu -🔹 
-//    9️⃣ 🔟    
+//   Number Emoji     👉👉  🔹Qu -🔹
+//    🔟
 // 1️⃣1️⃣ 1️⃣2️⃣ 1️⃣3️⃣ 1️⃣4️⃣ 1️⃣5️⃣ 1️⃣6️⃣ 1️⃣7️⃣ 1️⃣8️⃣ 1️⃣9️⃣ 2️⃣0️⃣
 // 2️⃣1️⃣ 2️⃣2️⃣ 2️⃣3️⃣ 2️⃣4️⃣ 2️⃣5️⃣ 2️⃣6️⃣ 2️⃣7️⃣ 2️⃣8️⃣ 2️⃣9️⃣ 3️⃣0️⃣
