@@ -342,27 +342,54 @@
 //    👉👉  🔹🔹Qu - 9️⃣  Write A functoin claculate percentage  of a student from
 //  Marks in Science , Math , English
 
-#include <stdio.h>
-//  Function Prototyep
-int cal_marks(int science, int math, int eng);
-int main()
-{
-    int sci = 96;
-    int math = 90;
-    int eng = 92;
+// #include <stdio.h>
+// //  Function Prototyep
+// int cal_marks(int science, int math, int eng);
+// int main()
+// {
+//     int sci = 96;
+//     int math = 90;
+//     int eng = 92;
 
-    int calcualtion = cal_marks(sci, math, eng); // Function call
-    printf("Percentage of marks : %d%\n", calcualtion);
+//     int calcualtion = cal_marks(sci, math, eng); // Function call
+//     printf("Percentage of marks : %d%\n", calcualtion);
+
+//     return 0;
+// }
+
+// // Function Dafinition
+
+// int cal_marks(int science, int math, int eng)
+// {
+//     int calculation = ((science + math + eng) / 3);
+//     return calculation;
+// }
+
+//    👉👉  🔹🔹Qu - 🔟  Write A functoin  to print  n terms  of the fibonachi  sequence
+
+
+#include <stdio.h>
+// function protyep 
+int fib(int n);
+int main(){
+
+    printf("Output is %d\n" , fib(8));
 
     return 0;
 }
 
-// Function Dafinition
-
-int cal_marks(int science, int math, int eng)
-{
-    int calculation = ((science + math + eng) / 3);
-    return calculation;
+// Function Defenition ;
+int fib(int n){
+    if(n== 0){  // Base case 
+        return 0;
+    }
+    if(n == 1){
+        return 1;
+    }
+    int fib_Nm1 = fib (n-1);
+    int fib_Nm2 = fib (n-2);
+    int fib_Nm = fib_Nm1 + fib_Nm2 ;
+    return fib_Nm;
 }
 
 // / #include <stdio.h>
@@ -372,6 +399,6 @@ int cal_marks(int science, int math, int eng)
 // }
 
 //   Number Emoji     👉👉  🔹Qu -🔹
-//    🔟
+//    
 // 1️⃣1️⃣ 1️⃣2️⃣ 1️⃣3️⃣ 1️⃣4️⃣ 1️⃣5️⃣ 1️⃣6️⃣ 1️⃣7️⃣ 1️⃣8️⃣ 1️⃣9️⃣ 2️⃣0️⃣
 // 2️⃣1️⃣ 2️⃣2️⃣ 2️⃣3️⃣ 2️⃣4️⃣ 2️⃣5️⃣ 2️⃣6️⃣ 2️⃣7️⃣ 2️⃣8️⃣ 2️⃣9️⃣ 3️⃣0️⃣
